@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>New Visualization</title>
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+  <link rel="stylesheet" href="static/css/lib/bootstrap.min.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+
+  <link rel="stylesheet" href="static/css/lib/AdminLTE.min.css">
+  <link rel="stylesheet" href="static/css/lib/skin-blue.min.css">
+  <link rel="stylesheet" href="static/css/custom.css">
+  
+  <script src="static/js/lib/pouchdb.min.js"></script>
+  <script src="static/js/lib/jquery-2.2.3.min.js"></script>
+  <script src="static/js/lib/jqueryui.js"></script>
+  <script src="static/js/main.js"></script>
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+  <header class="main-header">
+
+    <a href="/" class="logo">
+      <span class="logo-lg"><b>Insights</b></span>
+    </a>
+
+    <nav class="navbar navbar-static-top" role="navigation">
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" onclick="createNewInsight()" >
+              <span class="hidden-xs"">Create New Insight</span>
+            </a>
+          </li>
+          <li class="dropdown">
+            <a href="#" onclick="createNew()" >
+              <span class="hidden-xs"">Create New Visualization</span>
+            </a>
+          </li>
+          <li class="dropdown user user-menu">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+              <img src="static/img/user9_128x128.jpg" class="user-image" alt="User Image">
+              <span class="hidden-xs">Sikhao-Koi-Hack</span>
+            </a>
+            <ul class="dropdown-menu">
+
+              <li class="user-header">
+                <img src="static/img/user9_128x128.jpg" class="img-circle" alt="User Image">
+
+                <p>
+                  Organization Name
+                </p>
+              </li>
+
+              <li class="user-footer">
+                <div class="pull-left">
+                  <a href="#" class="btn btn-default btn-flat">Profile</a>
+                </div>
+                <div class="pull-right">
+                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                </div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <aside class="main-sidebar">
+    <section class="sidebar">
+
+      <ul class="sidebar-menu">
+        <li class="header">Dashboards</li>
+        <li id="ecommerce"><a href="#" onclick="openDashboard('ecommerce')"><span>E-Commerce Dashboard</span></a></li>
+        <li id="transportation"><a href="#" onclick="openDashboard('transportation')"><span>Transportation Dashboard</span></a></li>
+      </ul>
+    </section>
+  </aside>
+
+  <div class="content-wrapper">
+
+    <section class="content">
+      <section class="content-header">
+
+        <h3>Insights App</h3>
+
+      </section>
+    </section>
+
+  </div>
+
+  <footer class="main-footer">
+    <div class="pull-right hidden-xs">
+      Competitive Analytics
+    </div>
+    <strong>Copyright &copy; <a href="#">Insights App</a></strong>
+  </footer>
+
+</div>
+
+</body>
+</html>
