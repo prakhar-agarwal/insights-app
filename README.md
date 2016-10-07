@@ -52,7 +52,7 @@ Params : {
 	"Rating": 3.4
 }
 }
-```javascript
+```
 
 App Flow
 Accessibility Service
