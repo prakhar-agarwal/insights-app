@@ -54,35 +54,35 @@ Params : {
 }
 ```
 
-App Flow
-Accessibility Service
-Read survey file (surveys.json) and create in memory data structure
-For each accessibility event (needs to be quick!)
-Get current active app
-If event trigger exists for active app
-Run rules
-Extract data
-Send information to backend (possibly in background worker - queue requests)
-Main app
-Update surveys file
-Installed apps?
+## App Flow
+* Accessibility Service
+* Read survey file (surveys.json) and create in memory data structure
+* For each accessibility event (needs to be quick!)
+* Get current active app
+* If event trigger exists for active app
+* Run rules
+* Extract data
+* Send information to backend (possibly in background worker - queue requests)
+* Main app
+* Update surveys file
+* Installed apps?
 
-Backend
+## Backend
 
-API Endpoint
-Have ES index for each survey
-Index datapoint into appropriate survey index
+* API Endpoint
+* Have ES index for each survey
+* Index datapoint into appropriate survey index
 User data?
 other
 
-Frontend
-Landing page
-Login/Signup
-Account home
-Dashboard 
-showing active surveys
-Edit Survey
-Survey Dashboard
-Visualization on active dashboard
-Create Survey
-Form to create survey schema
+## Frontend
+* Landing page
+* Login/Signup
+* Account home
+* Dashboard 
+* showing active surveys
+* Edit Survey
+* Survey Dashboard
+* Visualization on active dashboard
+* Create Survey
+* Form to create survey schema
